@@ -66,7 +66,7 @@
 
 let i =-1;
 let j = 0;
-let interval = setInterval( increment, 1000);
+let interval = setInterval(increment, 1000);
 function increment(){
     i++;
     document.querySelector('h1#counter').textContent = i;
